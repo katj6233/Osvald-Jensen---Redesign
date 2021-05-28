@@ -9,7 +9,7 @@ h2{
 }
 
 .wide{
-  background-color: #3d4552;
+  background-color: var(--secondary);
   height: 25vw;
 }
 
@@ -19,6 +19,18 @@ h2{
 }
 
 .clients{
-  background-color: #DD282D;
+  background-color: var(--primary);
   height: 60vw;
+}
+
+.logo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: auto;
+  gap: 40px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 4vw;
+
 }
