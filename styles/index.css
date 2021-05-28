@@ -1,7 +1,7 @@
 h1 {
   grid-area: 1/1;
   text-align: center;
-  padding-top: 30rem;
+  padding-top: 20rem;
 }
 
 h2 {
@@ -15,7 +15,7 @@ p {
 
 .hero{
   display: grid;
-  width: 100%;
+  height: 49.5vw;
 }
 
 .wide {
