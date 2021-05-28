@@ -1,29 +1,32 @@
-
-h1{
+h1 {
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
   padding-top: 5rem;
 }
 
-.wide{
+p {
+  grid-column: 2/3;
+}
+
+.wide {
   background-color: var(--secondary);
-  height: 25vw;
+  height: 30vw;
 }
 
-.wide p{
+.wide p {
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 2.5rem;
 }
 
-.clients{
+.clients {
   background-color: var(--primary);
-  height: 60vw;
+  height: 70vw;
 }
 
-.logo{
+.logo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -32,5 +35,7 @@ h2{
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 4vw;
+}
 
+@media (max-width: 1000px;) {
 }
