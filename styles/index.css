@@ -1,5 +1,7 @@
 h1 {
+  grid-area: 1/1;
   text-align: center;
+  padding-top: 20rem;
 }
 
 h2 {
@@ -9,6 +11,11 @@ h2 {
 
 p {
   grid-column: 2/3;
+}
+
+.hero{
+  display: grid;
+  height: 49.5vw;
 }
 
 .wide {
@@ -26,10 +33,7 @@ p {
   height: 70vw;
 }
 
-
 .cliets_logo{
-
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -38,6 +42,15 @@ p {
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 4vw;
+}
+
+video{
+  grid-area: 1/1;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
+  z-index: -1;
+  opacity: 20%;
 }
 
 @media (max-width: 1000px;) {
