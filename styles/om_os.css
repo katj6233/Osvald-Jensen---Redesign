@@ -21,6 +21,10 @@
     padding: 10rem;
   }
 
+  p {
+    grid-column: 2/3;
+  }
+
   .profil .col_left {
     background-color: var(--secondary);
     text-align: center;
