@@ -10,23 +10,28 @@
 
 .col_right {
   grid-column: 2 / 2;
-  text-align: center;
+  text-align: left;
   margin: 60px;
   margin-bottom: 30px;
+  margin-left: 20vw;
 }
 
 .section_wrapper_1 {
-  background-color: #dd282d;
-  text-align: center;
+  background-color: var(--primary);
 }
 
-.section_wrapper_1 .image_1,
-.section_wrapper_1 .image_2,
-.section_wrapper_1 .image_3,
-.section_wrapper_1 .image_4,
-.section_wrapper_1 .image_5,
-.section_wrapper_1 .image_6 {
-  display: flex;
-  width: 30vw;
+.section_wrapper_1 h2 {
+  text-align: center;
+  padding-top: 6vw;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   height: auto;
+  gap: 40px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 4vw;
 }
