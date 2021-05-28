@@ -1,0 +1,24 @@
+.section_wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10rem;
+    padding:1.5rem;
+   
+}
+
+.col_left{
+   grid-template-columns: 1fr 1fr;
+}
+
+.col_right{
+    grid-template-columns: 1fr 1fr;
+}
+
+.col_left1{
+    grid-template-columns: 1fr 1fr;
+}
+
+.col_right1{
+    grid-template-columns: 1fr 1fr;
+
+}
