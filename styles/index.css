@@ -8,6 +8,10 @@ h2{
   padding-top: 5rem;
 }
 
+p{
+  grid-column: 2/3;
+}
+
 .wide{
   background-color: var(--secondary);
   height: 30vw;
