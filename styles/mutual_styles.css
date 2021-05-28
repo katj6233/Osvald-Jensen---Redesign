@@ -33,6 +33,10 @@ main{
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
+ 
+main > section{
+  grid-column: 1/4;
+}
 
 h1 {
   font-family: "Roboto Condensed", sans-serif;
