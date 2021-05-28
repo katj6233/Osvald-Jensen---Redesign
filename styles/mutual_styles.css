@@ -30,6 +30,7 @@ body {
 }
 
 main{
+  display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
 
