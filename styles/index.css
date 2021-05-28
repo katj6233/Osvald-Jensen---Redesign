@@ -27,7 +27,7 @@ p{
   height: 70vw;
 }
 
-.logo{
+.cliets_logo{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
