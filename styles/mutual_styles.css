@@ -40,7 +40,7 @@ main > section {
 
 h1 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 40px;
+  font-size: 60px;
   color: var(--text);
   line-height: 1.125;
   margin-bottom: 10px;
@@ -99,6 +99,14 @@ footer {
   padding: 55px;
   line-height: 1.125;
   background-color: #3d4552;
+}
+
+.visitkort {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 
 .citat {
@@ -232,21 +240,34 @@ nav {
 
   .footer_info {
     display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr; */
     justify-content: space-around;
   }
 
   .adresse {
+    /* grid-column: 1 / 2; */
     border-left: 2px solid var(--primary);
     padding-left: 25px;
+    font-style: normal;
   }
 
   .telefon {
+    /* grid-column: 2 / 3; */
     border-left: 2px solid var(--primary);
     padding-left: 25px;
+    font-style: normal;
   }
 
   .mail {
+    /* grid-column: 3 / 3; */
     border-left: 2px solid var(--primary);
     padding-left: 25px;
+    font-style: normal;
+  }
+
+  .info_oeverst {
+    font-style: normal;
   }
 }
