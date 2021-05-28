@@ -9,7 +9,7 @@ h2{
 }
 
 .wide{
-  background-color: #3d4552;
+  background-color: var(--secondary);
   height: 25vw;
 }
 
@@ -19,6 +19,6 @@ h2{
 }
 
 .clients{
-  background-color: #DD282D;
+  background-color: var(--primary);
   height: 60vw;
 }
