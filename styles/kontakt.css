@@ -11,9 +11,14 @@
 .col_right {
   grid-column: 2 / 2;
   text-align: left;
-  margin: 60px;
-  margin-bottom: 30px;
-  margin-left: 20vw;
+  padding: 20px;
+  display: grid;
+  place-content: center;
+}
+
+address {
+  border-left: 2px solid var(--primary);
+  padding-left: 25px;
 }
 
 .section_wrapper_1 {
@@ -34,4 +39,5 @@
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 4vw;
+  padding-bottom: 10vw;
 }
