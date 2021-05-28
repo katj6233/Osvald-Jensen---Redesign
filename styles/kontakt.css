@@ -1,0 +1,32 @@
+.section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.col_left {
+  grid-column: 1 / 2;
+}
+
+.col_right {
+  grid-column: 2 / 2;
+  text-align: center;
+  margin: 60px;
+  margin-bottom: 30px;
+}
+
+.section_wrapper_1 {
+  background-color: #dd282d;
+  text-align: center;
+}
+
+.section_wrapper_1 .image_1,
+.section_wrapper_1 .image_2,
+.section_wrapper_1 .image_3,
+.section_wrapper_1 .image_4,
+.section_wrapper_1 .image_5,
+.section_wrapper_1 .image_6 {
+  display: flex;
+  width: 30vw;
+  height: auto;
+}
