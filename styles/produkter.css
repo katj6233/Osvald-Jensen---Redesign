@@ -45,3 +45,9 @@ h1{
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
+.p2, .p3,.p4,.p5{
+    background-color: var(--primary);
+height: 2vw;
+width: 26vw;
+}
