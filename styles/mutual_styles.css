@@ -29,6 +29,10 @@ body {
   background-color: var(--accent);
 }
 
+main{
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 40px;
