@@ -96,4 +96,22 @@
     padding-top: 4vw;
     padding-bottom: 10vw;
   }
+
+  label,
+  input,
+  textarea,
+  select,
+  button {
+    display: block;
+  }
+
+  .form_felt {
+    display: grid;
+  }
+
+  .form_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+  }
 }
