@@ -28,6 +28,17 @@ p {
   padding-top: 2.5rem;
 }
 
+.produkter {
+  display: flex;
+  gap: 10px;
+  place-content: center;
+  padding: 3rem;
+}
+
+.produkter img{
+  opacity: 20%;
+}
+
 .clients {
   background-color: var(--primary);
   height: 70vw;
