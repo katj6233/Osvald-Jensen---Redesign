@@ -199,6 +199,10 @@ nav {
 }
 
 @media (min-width: 700px) {
+  .info_oeverst {
+    font-style: normal;
+  }
+
   a {
     font-family: "Roboto Condensed", sans-serif;
     color: var(--text);
@@ -248,34 +252,14 @@ nav {
 
   .footer_info {
     display: flex;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr; */
     justify-content: space-around;
   }
 
-  .adresse {
-    /* grid-column: 1 / 2; */
-    border-left: 2px solid var(--primary);
-    padding-left: 25px;
-    font-style: normal;
-  }
-
-  .telefon {
-    /* grid-column: 2 / 3; */
-    border-left: 2px solid var(--primary);
-    padding-left: 25px;
-    font-style: normal;
-  }
-
+  .adresse,
+  .telefon,
   .mail {
-    /* grid-column: 3 / 3; */
     border-left: 2px solid var(--primary);
     padding-left: 25px;
-    font-style: normal;
-  }
-
-  .info_oeverst {
     font-style: normal;
   }
 }
