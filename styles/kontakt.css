@@ -1,3 +1,14 @@
+.col_left {
+  display: none;
+}
+
+.col_right {
+  text-align: left;
+  padding: 70px;
+  display: grid;
+  place-content: center;
+}
+
 .info_oeverst {
   border-left: 2px solid var(--primary);
   padding-left: 25px;
@@ -5,29 +16,24 @@
   font-style: normal;
 }
 
-.col_left {
-  display: none;
-}
-
-.col_right {
-  grid-column: 2 / 2;
-  text-align: left;
-  padding: 20px;
-  display: grid;
-  place-content: center;
-}
-
 .section_wrapper_1 {
   background-color: var(--primary);
+  padding-bottom: 15vw;
 }
 
 .section_wrapper_1 h2 {
   text-align: center;
-  padding-top: 6vw;
+  padding-top: 10vw;
 }
 
 .kontakt_kort img {
-  max-width: 54vw;
+  max-width: 60vw;
+}
+
+.kontakt_kort {
+  padding-top: 12vw;
+  display: grid;
+  place-content: center;
 }
 
 .visitkort {
@@ -35,19 +41,6 @@
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 2vw;
-}
-
-.visitkort_1 {
-  background-color: var(--accent);
-  text-align: center;
-  padding-top: 2vw;
-  padding-bottom: 3vw;
-}
-
-.kontakt_kort {
-  padding-top: 12vw;
-  display: grid;
-  place-content: center;
 }
 
 form label {
@@ -91,6 +84,7 @@ button {
 
 .form_section {
   padding: 1rem;
+  padding-top: 15vw;
 }
 
 @media (min-width: 700px) {
@@ -154,6 +148,10 @@ button {
     padding: 0;
   }
 
+  .form_felt {
+    gap: 5px;
+  }
+
   .col_left_1 {
     grid-column: 2 / 3;
     display: inline-block;
@@ -162,7 +160,8 @@ button {
   .col_right_1 {
     grid-column: 2 / 3;
     text-align: left;
-    padding: 20px;
+    padding: 30px;
+    padding-top: 0;
     place-content: center;
   }
 }
