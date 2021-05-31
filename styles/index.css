@@ -28,13 +28,6 @@ p {
   padding-top: 2.5rem;
 }
 
-.produkter {
-  display: flex;
-  gap: 10px;
-  place-content: center;
-  padding: 3rem;
-}
-
 .produkter img{
   opacity: 20%;
 }
@@ -42,17 +35,6 @@ p {
 .clients {
   background-color: var(--primary);
   height: 70vw;
-}
-
-.cliets_logo{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: auto;
-  gap: 40px;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 4vw;
 }
 
 video{
@@ -64,5 +46,27 @@ video{
   opacity: 20%;
 }
 
-@media (max-width: 1000px;) {
+@media (min-width: 1000px) {
+  .clients{
+    height: 55vw;
+  }
+
+  .produkter {
+    display: flex;
+    gap: 10px;
+    place-content: center;
+    padding: 3rem;
+  }
+
+  .cliets_logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    gap: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 4vw;
+  }
+
 }
