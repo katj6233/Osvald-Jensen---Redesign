@@ -1,15 +1,29 @@
-h1{
+  h1 {
+    grid-area: 1/1;
     text-align: center;
+    padding-top: 20rem;
   }
   
   h2{
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 20rem;
+    padding-bottom: 3rem;
   }
 
   .text{
     grid-column: 2/3;
+    padding-bottom: 20rem;
   } 
+
+  .hero{
+    display: grid;
+    height: 49.5vw;
+  }
+
+  .wide {
+      background-color: var(--primary);
+      height: 30vw;
+  }
 
   video{
     grid-area: 1/1;
