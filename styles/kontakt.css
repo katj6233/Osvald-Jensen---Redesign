@@ -142,7 +142,7 @@ button {
 
   .form_section {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
     color: white;
     padding: 1.5rem;
     gap: 2rem;
@@ -152,5 +152,17 @@ button {
 
   form {
     padding: 0;
+  }
+
+  .col_left_1 {
+    grid-column: 2 / 3;
+    display: inline-block;
+  }
+
+  .col_right_1 {
+    grid-column: 2 / 3;
+    text-align: left;
+    padding: 20px;
+    place-content: center;
   }
 }
