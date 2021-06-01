@@ -89,7 +89,7 @@ p {
   font-size: 14px;
   color: var(--text);
   letter-spacing: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -106,7 +106,6 @@ footer {
   font-size: 14px;
   color: var(--text);
   font-style: italic;
-  background-color: var(--primary);
   height: 40vw;
   text-align: center;
   padding: 3.5rem;
