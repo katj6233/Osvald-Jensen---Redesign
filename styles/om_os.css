@@ -36,9 +36,6 @@ h5 {
 
   .wide {
     background-color: var(--primary);
-    height: 24vw;
-    text-align: center;
-    padding: 10rem;
   }
 
   .wide p {
