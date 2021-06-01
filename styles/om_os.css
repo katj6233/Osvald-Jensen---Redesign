@@ -1,7 +1,86 @@
+.text {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.profil .col_right {
+  padding: 1rem;
+}
+
+.profil .col_left p {
+  padding-top: 2rem;
+  padding: 1rem;
+}
+
+.profil .col_left img {
+  padding: 3rem 0rem;
+}
+
+.profil .col_left h4 {
+  padding-top: 1rem;
+}
+
+.profil .col_left {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.wide {
+  background-color: var(--primary);
+}
+
 @media (min-width: 700px) {
   .section_wrapper {
     display: grid;
+    grid-template-columns: 1.5fr 2fr;
+  }
+
+  .profil {
+    display: grid;
     grid-template-columns: 1fr 2fr;
+    padding: 3rem;
+  }
+
+  .wide {
+    background-color: var(--primary);
+  }
+
+  .wide p {
+    grid-column: 2/3;
+    text-align: center;
+  }
+
+  .profil .col_right {
+    margin: 40px;
+
+    border-left: 2px solid var(--primary);
+    padding-left: 25px;
+  }
+
+  .profil .col_left {
+    background-color: var(--secondary);
+    text-align: center;
+
+    padding: 10px;
+  }
+
+  .profil .col_left p {
+    padding-top: 2rem;
+  }
+
+  .profil .col_left img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    clip-path: circle();
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .profil .col_left {
+    margin: 40px;
   }
 
   .section_wrapper .billeder {
@@ -16,46 +95,5 @@
   .section_wrapper .billeder .image_4 {
     grid-column: 2/3;
     grid-row: 1;
-  }
-
-  .profil {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 3rem;
-  }
-
-  .wide {
-    background-color: var(--primary);
-    height: 24vw;
-    text-align: center;
-    padding: 10rem;
-  }
-
-  .wide p {
-    grid-column: 2/3;
-    text-align: center;
-  }
-
-  .profil .col_right {
-    margin: 40px;
-    padding: 10px;
-    border-left: 2px solid var(--primary);
-    padding-left: 25px;
-  }
-
-  .profil .col_left {
-    background-color: var(--secondary);
-    text-align: center;
-    margin: 40px;
-    padding: 10px;
-  }
-
-  .profil .col_left img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    clip-path: circle();
-    max-width: 100px;
   }
 }
