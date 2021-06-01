@@ -135,7 +135,7 @@ button {
   .team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     height: auto;
     gap: 40px;
     padding-left: 7vw;
@@ -153,7 +153,7 @@ button {
 
   .kontakt_kort {
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: auto auto;
     /* place-content: center; */
     /* padding-top: 1vw; */
   }
