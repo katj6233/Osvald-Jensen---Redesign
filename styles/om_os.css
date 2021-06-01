@@ -12,10 +12,6 @@
   padding: 1rem;
 }
 
-.profil .col_left img {
-  padding: 3rem 0rem;
-}
-
 .profil .col_left h4 {
   padding-top: 1rem;
 }
@@ -23,6 +19,15 @@
 .profil .col_left {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.profil .col_left img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  clip-path: circle();
+  max-width: 100px;
 }
 
 .wide {
@@ -66,15 +71,6 @@
 
   .profil .col_left p {
     padding-top: 2rem;
-  }
-
-  .profil .col_left img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    clip-path: circle();
-    max-width: 100px;
   }
 }
 
