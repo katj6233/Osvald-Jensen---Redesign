@@ -1,3 +1,4 @@
+@media (min-width: 1000px){
 .section_wrapper{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -8,14 +9,21 @@
 
 .section_1{
     grid-column: 2/3;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    line-height: 23px;
 }
 
 .section_2{
     grid-column: 2/3;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    line-height: 23px;
 }
 
 .text{
     grid-column: 2/3;
+    line-height: 23px;
 }
 
 .col_left{
@@ -38,17 +46,30 @@
 h1{
    text-align: center;
    padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
   
 }
 
+h2{
+    padding-bottom: 1rem;
+}
 .p1{text-align: center;
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .p2, .p3,.p4,.p5{
-    background-color: var(--primary);
-height: 2vw;
-width: 26vw;
+    border-width: 3px 3px;
+
+border-style: solid;
+border-color: var(--primary);
+background-color: var(--primary);
+max-width: 20rem;
+
 }
 
+u{
+    cursor: pointer;
+}
+}
