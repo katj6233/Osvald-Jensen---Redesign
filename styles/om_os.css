@@ -4,7 +4,7 @@
 }
 
 .profil {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .profil .col_right {
@@ -14,6 +14,7 @@
 .profil .col_left p {
   padding-top: 2rem;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 .profil .col_left h4 {
@@ -59,14 +60,17 @@
 
   .section_wrapper .billeder .image_1 {
     grid-column: span 2;
+    grid-row: 2;
   }
 
   .section_wrapper .billeder .image_2 {
     grid-column: span 2;
+    grid-row: 4;
   }
 
-  .section_wrapper .billeder .image_5 {
+  .section_wrapper .billeder .image_4 {
     grid-column: span 2;
+    grid-row: 1;
   }
 
   .profil {
@@ -126,6 +130,7 @@
 
   .section_wrapper .billeder .image_2 {
     grid-column: span 2;
+    grid-row: 3;
   }
 
   .section_wrapper .billeder .image_4 {
@@ -135,6 +140,6 @@
 
   .section_wrapper .billeder .image_5 {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 2;
   }
 }
