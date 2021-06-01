@@ -102,12 +102,15 @@ footer {
 }
 
 .citat {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: var(--text);
   font-style: italic;
+  background-color: var(--primary);
+  height: 40vw;
+  text-align: center;
+  padding: 3.5rem;
+  margin-bottom: 4rem;
 }
 
 a {
@@ -183,6 +186,7 @@ nav {
 }
 
 .footer_info {
+  border-left: 2px solid var(--primary);
   padding-left: 25px;
   justify-content: center;
   font-style: normal;
@@ -243,6 +247,11 @@ nav {
     margin-bottom: 10px;
   }
 
+  .citat {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  }
+
   a {
     font-family: "Roboto Condensed", sans-serif;
     color: var(--text);
@@ -292,6 +301,7 @@ nav {
   }
 
   .footer_info {
+    border-left: 0;
     display: flex;
     justify-content: space-around;
   }
