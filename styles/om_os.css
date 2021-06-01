@@ -1,24 +1,23 @@
+.text_indhold {
+  padding: 2rem;
+}
+
 .text {
   padding: 1rem;
   margin: 1rem;
+  line-height: 1.2;
+}
+
+.text p {
+  margin-bottom: 0rem;
+}
+
+.text h3 {
+  margin-top: 1.4rem;
 }
 
 .profil {
   padding: 2rem;
-}
-
-.profil .col_right {
-  padding: 1rem;
-}
-
-.profil .col_left p {
-  padding-top: 2rem;
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
-
-.profil .col_left h4 {
-  padding-top: 1rem;
 }
 
 .profil .col_left {
@@ -26,6 +25,16 @@
   padding-right: 1rem;
   text-align: center;
   background-color: var(--secondary);
+}
+
+.profil .col_left h4 {
+  padding-top: 1rem;
+}
+
+.profil .col_left p {
+  padding-top: 2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 .profil .col_left .text {
@@ -43,11 +52,27 @@
   padding-top: 1rem;
 }
 
+.profil .col_right {
+  padding: 1rem;
+}
+
 .wide {
   background-color: var(--primary);
 }
 
 @media (min-width: 700px) {
+  .text {
+    margin: 1rem 1rem;
+  }
+
+  .firma_text {
+    margin: 1rem 1rem;
+  }
+
+  .text h3 {
+    margin-top: 1.8rem;
+  }
+
   .section_wrapper {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
@@ -78,20 +103,19 @@
     grid-template-columns: 1fr 2fr;
   }
 
-  .profil .col_left p {
-    padding: 0;
+  .profil .col_left {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 1rem;
   }
 
   .profil .col_left img {
     max-width: 6rem;
   }
-  .wide {
-    background-color: var(--primary);
-  }
 
-  .wide p {
-    grid-column: 2/3;
-    text-align: center;
+  .profil .col_left p {
+    padding: 0;
+    padding-top: 2rem;
   }
 
   .profil .col_right {
@@ -102,20 +126,43 @@
     padding: 0 2rem;
   }
 
-  .profil .col_left {
-    background-color: var(--secondary);
-    text-align: center;
-    padding: 1rem;
+  .wide {
+    background-color: var(--primary);
   }
 
-  .profil .col_left p {
-    padding-top: 2rem;
+  .wide p {
+    grid-column: 2/3;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .narrow {
+    grid-column: 2/3;
   }
 }
 
+/*@media (min-width: 768px) {
+  .firma_text {
+    margin: 1rem 1rem;
+    padding: 2.5rem;
+  }
+}*/
+
 @media (min-width: 1000px) {
-  .profil .col_left {
-    margin: 1rem;
+  /*.firma_text {
+    margin: 2rem 0rem;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }*/
+
+  .firma_text h3 {
+    margin-top: 1.6rem;
+  }
+
+  .firma_text .text_indhold {
+    grid-column: 2/3;
+    padding: 0;
   }
 
   .section_wrapper .billeder {
@@ -141,5 +188,9 @@
   .section_wrapper .billeder .image_5 {
     grid-column: 2;
     grid-row: 2;
+  }
+
+  .profil .col_left {
+    margin: 1rem;
   }
 }
