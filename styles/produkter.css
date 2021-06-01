@@ -8,6 +8,7 @@
   border-radius: 4px;
   color: #fff;
  max-width: 22rem;
+ margin-top:-2rem;
 
 }
 
@@ -21,9 +22,16 @@ h1{
     padding-bottom: 1.5rem;
    
  }
+ p{
+     margin-left:1rem;
+     margin-right:1rem;
+     line-height: 2;
+ }
  
  h2{
      padding-bottom: 1rem;
+     margin-left:1rem;
+     padding-top:1rem;
  }
  .p1{text-align: center;
      padding-left: 3rem;
