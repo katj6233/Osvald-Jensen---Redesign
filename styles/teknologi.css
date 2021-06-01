@@ -4,15 +4,20 @@ h1 {
   padding-top: 2.5rem;
 }
 
-.text {
+.text h2 {
   text-align: center;
-  margin-left: 1.7rem;
-  margin-right: 1.5rem;
+}
+
+.text {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .wide {
   background-color: var(--primary);
-  height: 30vw;
+  height: 80vw;
 }
 
 .iframe_wrapper {
@@ -20,7 +25,8 @@ h1 {
   width: 100%;
   height: 0;
   padding-top: 56.25%;
-  z-index: -1;
+  z-index: 1;
+  margin-top: 3rem;
 }
 
 iframe {
@@ -28,10 +34,18 @@ iframe {
   inset: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 
 @media (min-width: 700px) {
+  header {
+    z-index: 100;
+  }
+
+  main > section {
+    grid-column: 1/-1;
+  }
+
   h1 {
     grid-area: 1/1;
     text-align: center;
@@ -40,7 +54,7 @@ iframe {
 
   h2 {
     text-align: center;
-    padding-top: 20rem;
+    padding-top: 10rem;
     padding-bottom: 3rem;
   }
 
@@ -50,13 +64,23 @@ iframe {
   }
 
   .text {
-    grid-column: 2/3;
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    line-height: 1.5rem;
   }
 
   .wide {
     background-color: var(--primary);
-    height: 30vw;
+    height: 50vw;
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 880px) 1fr;
+    padding-bottom: 0;
+    padding-block: 4rem;
+  }
+
+  .wide div {
+    grid-column: 2;
   }
 
   video {
