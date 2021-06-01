@@ -1,6 +1,7 @@
 h1 {
   grid-area: 1/1;
   text-align: center;
+  padding-top: 2.5rem;
 }
 
 h2 {
@@ -15,7 +16,7 @@ p {
   line-height: 2;
 }
 
-.hero{
+.hero {
   display: grid;
   height: 49.5vw;
 }
@@ -30,7 +31,7 @@ p {
   padding-top: 2.5rem;
 }
 
-.produkter img{
+.produkter img {
   opacity: 20%;
   z-index: -1;
 }
@@ -40,7 +41,7 @@ p {
   height: 70vw;
 }
 
-video{
+video {
   grid-area: 1/1;
   width: 100%;
   object-fit: cover;
@@ -49,8 +50,8 @@ video{
   opacity: 20%;
 }
 
-@media (min-width: 1000px) {
-  .clients{
+@media (min-width: 700px) {
+  .clients {
     height: 55vw;
   }
 
@@ -61,7 +62,7 @@ video{
     padding: 3rem;
   }
 
-  .cliets_logo{
+  .cliets_logo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -89,5 +90,4 @@ video{
     background-color: var(--secondary);
     height: 30vw;
   }
-
 }
