@@ -172,7 +172,14 @@ nav {
   transform-origin: top left;
 }
 
-@media only screen and (min-width: 600px) {
+.footer_info {
+  border-left: 2px solid var(--primary);
+  padding-left: 25px;
+  justify-content: center;
+  font-style: normal;
+}
+
+@media (min-width: 700px) {
   #menuknap {
     display: none;
   }
@@ -185,16 +192,7 @@ nav {
   #menu li {
     display: inline-block;
   }
-}
 
-.footer_info {
-  border-left: 2px solid var(--primary);
-  padding-left: 25px;
-  justify-content: center;
-  font-style: normal;
-}
-
-@media (min-width: 700px) {
   h1 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 60px;
