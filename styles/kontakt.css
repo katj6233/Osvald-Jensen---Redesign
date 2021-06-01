@@ -27,25 +27,28 @@
 }
 
 .kontakt_kort img {
-  max-width: 60vw;
+  width: 100%;
 }
 
+.team {
+  margin: 19vw;
+}
 .kontakt_kort {
-  padding-top: 12vw;
+  /* padding-top: 12vw; */
   display: grid;
-  place-content: center;
+  /* place-content: center; */
 }
 
 .visitkort {
   background-color: var(--accent);
   text-align: center;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: var(--text);
-  letter-spacing: 2px;
-  margin-bottom: 10px;
+  letter-spacing: 1vw;
+  margin-bottom: 20vw;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 form label {
@@ -129,21 +132,27 @@ button {
   }
 
   .kontakt_kort img {
-    max-width: 100vw;
+    /* width: 100%; */
+    object-fit: cover;
   }
 
   .kontakt_kort {
     display: grid;
-    place-content: center;
-    padding-top: 1vw;
+    grid-template-rows: 2fr 1fr;
+    /* place-content: center; */
+    /* padding-top: 1vw; */
   }
 
-  .visitkort {
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
+  /* .visitkort {
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
     letter-spacing: 3px;
+  } */
+
+  .visitkort h4 {
+    padding-top: 1vw;
   }
 
   .team {
