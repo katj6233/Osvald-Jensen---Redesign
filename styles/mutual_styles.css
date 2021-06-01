@@ -126,13 +126,16 @@ header {
   gap: 20px;
   text-align: left;
   background-color: var(--secondary);
+  display: grid;
+}
+
+header > * {
+  grid-area: 1 / 1;
 }
 
 nav {
   height: 80px;
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
 }
 
 /* nav a {
@@ -142,11 +145,11 @@ nav {
   /*grid-row: 1;*/
 /* } */
 
-.logo_mobile {
+/*.logo_mobile {
   padding: 1rem;
   min-width: 40px;
   max-width: 40px;
-}
+}*/
 
 .logo_web {
   display: none;
@@ -262,6 +265,7 @@ nav {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+    align-items: center;
     gap: 20px;
     margin: 0;
     padding: 0;
@@ -269,17 +273,28 @@ nav {
     overflow-x: auto;
     list-style: none;
   }
+
+  header nav ul li {
+    text-align: center;
+  }
+
   header {
     position: sticky;
     top: 0;
     padding: 1rem 1.5rem;
     background-color: var(--secondary);
     text-decoration: none;
+    place-items: center;
+  }
+
+  nav {
+    margin: 0 auto;
+    padding: 0 1rem;
   }
 
   nav a {
-    display: grid;
-    align-items: center;
+    /* display: grid;
+    align-items: center; */
     height: 80px;
   }
 
