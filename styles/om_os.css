@@ -194,6 +194,7 @@
   }
 }
 
+/*
 @media (min-width: 1200px) {
   .firma_text {
     margin: 3rem 3rem;
@@ -206,7 +207,7 @@
 }
 
 @media (min-width: 1500px) {
-  /*.firma_text {
+  .firma_text {
     margin: 0rem 11rem;
     padding: 1rem;
     line-height: 1.5;
@@ -222,5 +223,7 @@
 
   .firma_text p {
     margin-bottom: 0;
-  }*/
+  }
 }
+
+*/
