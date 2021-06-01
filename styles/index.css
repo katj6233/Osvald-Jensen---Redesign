@@ -1,7 +1,6 @@
 h1 {
   grid-area: 1/1;
   text-align: center;
-  padding-top: 20rem;
 }
 
 h2 {
@@ -11,6 +10,9 @@ h2 {
 
 p {
   grid-column: 2/3;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 2;
 }
 
 .hero{
@@ -20,7 +22,7 @@ p {
 
 .wide {
   background-color: var(--secondary);
-  height: 30vw;
+  height: 120vw;
 }
 
 .wide p {
@@ -30,6 +32,7 @@ p {
 
 .produkter img{
   opacity: 20%;
+  z-index: -1;
 }
 
 .clients {
@@ -67,6 +70,24 @@ video{
     padding-left: 10vw;
     padding-right: 10vw;
     padding-top: 4vw;
+  }
+
+  p {
+    grid-column: 2/3;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 2;
+  }
+
+  h1 {
+    grid-area: 1/1;
+    text-align: center;
+    padding-top: 20rem;
+  }
+
+  .wide {
+    background-color: var(--secondary);
+    height: 30vw;
   }
 
 }
