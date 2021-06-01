@@ -1,3 +1,36 @@
+h1 {
+  grid-area: 1/1;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.text {
+  text-align: center;
+  margin-left: 1.7rem;
+  margin-right: 1.5rem;
+}
+
+.wide {
+  background-color: var(--primary);
+  height: 30vw;
+}
+
+.iframe_wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  z-index: -1;
+}
+
+iframe {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 @media (min-width: 700px) {
   h1 {
     grid-area: 1/1;
@@ -11,19 +44,14 @@
     padding-bottom: 3rem;
   }
 
-  .text {
-    grid-column: 2/3;
-    padding-bottom: 20rem;
-  }
-
-  .text {
-    grid-column: 2/3;
-    padding-bottom: 20rem;
-  }
-
   .hero {
     display: grid;
     height: 49.5vw;
+  }
+
+  .text {
+    grid-column: 2/3;
+    padding-bottom: 20rem;
   }
 
   .wide {
