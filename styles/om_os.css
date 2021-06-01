@@ -12,6 +12,10 @@
   padding: 1rem;
 }
 
+.profil .col_left img {
+  padding: 3rem 0rem;
+}
+
 .profil .col_left h4 {
   padding-top: 1rem;
 }
@@ -20,6 +24,10 @@
 h5 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.wide {
+  background-color: var(--primary);
 }
 
 @media (min-width: 700px) {
