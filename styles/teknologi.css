@@ -1,31 +1,37 @@
+@media (min-width: 700px) {
   h1 {
     grid-area: 1/1;
     text-align: center;
     padding-top: 20rem;
   }
-  
-  h2{
+
+  h2 {
     text-align: center;
     padding-top: 20rem;
     padding-bottom: 3rem;
   }
 
-  .text{
+  .text {
     grid-column: 2/3;
     padding-bottom: 20rem;
-  } 
+  }
 
-  .hero{
+  .text {
+    grid-column: 2/3;
+    padding-bottom: 20rem;
+  }
+
+  .hero {
     display: grid;
     height: 49.5vw;
   }
 
   .wide {
-      background-color: var(--primary);
-      height: 30vw;
+    background-color: var(--primary);
+    height: 30vw;
   }
 
-  video{
+  video {
     grid-area: 1/1;
     width: 100%;
     object-fit: cover;
@@ -33,4 +39,4 @@
     z-index: -1;
     opacity: 20%;
   }
-  
+}
