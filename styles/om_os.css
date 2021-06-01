@@ -3,6 +3,10 @@
   margin: 1rem;
 }
 
+.profil {
+  padding: 3rem;
+}
+
 .profil .col_right {
   padding: 1rem;
 }
@@ -19,6 +23,13 @@
 .profil .col_left {
   padding-left: 1rem;
   padding-right: 1rem;
+  text-align: center;
+  background-color: var(--secondary);
+}
+
+.profil .col_left .text {
+  padding: 0;
+  margin: 0;
 }
 
 .profil .col_left img {
@@ -27,7 +38,8 @@
   margin-right: auto;
   width: 50%;
   clip-path: circle();
-  max-width: 100px;
+  max-width: 10rem;
+  padding-top: 1rem;
 }
 
 .wide {
@@ -43,9 +55,15 @@
   .profil {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 3rem;
   }
 
+  .profil .col_left p {
+    padding: 0;
+  }
+
+  .profil .col_left img {
+    max-width: 6rem;
+  }
   .wide {
     background-color: var(--primary);
   }
