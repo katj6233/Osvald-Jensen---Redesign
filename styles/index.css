@@ -38,7 +38,16 @@ p {
 
 .clients {
   background-color: var(--primary);
-  height: 70vw;
+  height: 370vw;
+}
+
+.clients_logo {
+  display: grid;
+  height: auto;
+  gap: 2rem;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 4vw;
 }
 
 video {
@@ -56,16 +65,16 @@ video {
   }
 
   .produkter {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    place-content: center;
     padding: 3rem;
   }
 
-  .cliets_logo {
+  .clients_logo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     height: auto;
     gap: 40px;
     padding-left: 10vw;
