@@ -66,7 +66,7 @@
   }
 
   .firma_text {
-    margin: 1rem 1rem;
+    margin: 0rem 1rem;
   }
 
   .text h3 {
@@ -192,6 +192,10 @@
   .profil .col_left {
     margin: 1rem;
   }
+
+  .wide {
+    height: 16vw;
+  }
 }
 
 /*
@@ -227,3 +231,28 @@
 }
 
 */
+
+/*@media (min-width: 1600px) {
+  .firma_text {
+    margin: 11rem 11rem;
+    padding: 3rem;
+    line-height: 1.5;
+  }
+
+  .firma_text h2 {
+    margin-bottom: 3rem;
+  }
+
+  .firma_text h3 {
+    margin-top: 7rem;
+  }
+
+  .firma_text p {
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+
+  .wide {
+    height: 11vw;
+  }
+}*/
