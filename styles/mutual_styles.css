@@ -93,18 +93,22 @@ p {
 }
 
 footer {
-  padding: 55px;
+  padding: 2rem;
   background-color: #3d4552;
 }
 
 .footer_info {
   border-left: 0;
-  display: flex;
+  /* display: grid; */
   justify-content: space-around;
   font-family: "Lato", sans-serif;
   font-size: 0.85rem;
   color: var(--text);
   line-height: 1.125;
+  border-left: 2px solid var(--primary);
+  padding-left: 2rem;
+  justify-content: center;
+  font-style: normal;
 }
 
 .citat {
@@ -176,13 +180,6 @@ nav {
   list-style-type: none;
   transition: transform 0.3s;
   transform-origin: top left;
-}
-
-.footer_info {
-  border-left: 2px solid var(--primary);
-  padding-left: 25px;
-  justify-content: center;
-  font-style: normal;
 }
 
 @media (min-width: 700px) {
