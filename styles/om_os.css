@@ -158,14 +158,18 @@
 
 @media (min-width: 1000px) {
   .firma_text {
-    margin: 2rem 0rem;
-    padding: 0.5rem;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   .text_indhold {
-    grid-columns: 2/3;
+    grid-area: 1/2;
+    padding: 1rem;
+  }
+
+  .text_indhold p {
+    margin-bottom: 0.5rem;
   }
 
   /* .firma_text h3 {
