@@ -159,12 +159,16 @@ button {
   }
 
   .visitkort {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     letter-spacing: 2px;
   }
 
   .visitkort h4 {
     padding-top: 1vw;
+  }
+
+  .visitkort h5 {
+    margin-bottom: 2rem;
   }
 
   .form_section {
