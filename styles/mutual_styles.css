@@ -80,7 +80,7 @@ h5 {
   color: var(--text);
   font-size: 1rem;
   letter-spacing: 2px;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   line-height: 1.125;
 }
 
@@ -111,6 +111,11 @@ footer {
   font-style: normal;
 }
 
+.footer_info p {
+  padding: 0;
+  margin-left: 0rem;
+}
+
 .citat {
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -137,6 +142,7 @@ header {
   text-align: left;
   background-color: var(--secondary);
   display: grid;
+  z-index: 100;
 }
 
 header > * {
@@ -238,7 +244,7 @@ nav {
     color: var(--text);
     font-size: 15px;
     letter-spacing: 2px;
-    margin-bottom: 0.5rem;
+    margin: 0.3rem;
     line-height: 1.125;
   }
 
