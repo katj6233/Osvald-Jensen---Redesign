@@ -82,7 +82,7 @@ iframe {
     display: grid;
     grid-template-columns: 1fr minmax(0, 880px) 1fr;
     padding-bottom: 0;
-    padding-block: 4rem;
+    padding-top: 4rem;
   }
 
   .wide div {
