@@ -2,6 +2,10 @@
   padding: 0.5rem 2rem;
 }
 
+.billeder {
+  margin-bottom: 2rem;
+}
+
 .text_indhold {
   padding: 2rem;
 }
@@ -20,6 +24,18 @@
   margin-top: 1.4rem;
 }
 
+.citat {
+  margin-bottom: 1rem;
+}
+
+.citat p {
+  font-size: 14px;
+}
+
+.video_kunde {
+  margin: 2rem 2rem;
+}
+
 .profil {
   padding: 2rem;
 }
@@ -27,6 +43,7 @@
 .profil .col_left {
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 1rem;
   text-align: center;
   background-color: var(--secondary);
 }
@@ -53,11 +70,11 @@
   width: 50%;
   clip-path: circle();
   max-width: 10rem;
-  padding-top: 1rem;
 }
 
 .wide {
   background-color: var(--primary);
+  height: 200px;
 }
 
 @media (min-width: 700px) {
@@ -92,6 +109,14 @@
     margin-top: 1.8rem;
   }
 
+  .citat {
+    margin-bottom: 0rem;
+  }
+
+  .citat p {
+    font-size: 16px;
+  }
+
   .section_wrapper {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
@@ -117,6 +142,11 @@
   .section_wrapper .billeder .image_4 {
     grid-column: span 2;
     grid-row: 1;
+  }
+
+  .video_kunde {
+    grid-column: 2/3;
+    margin: 2rem 6rem;
   }
 
   .profil {
@@ -149,12 +179,12 @@
 
   .wide {
     background-color: var(--primary);
+    margin: 2rem 0rem;
   }
 
   .wide p {
     grid-column: 2/3;
     text-align: center;
-    padding: 2rem;
   }
 
   .narrow {
@@ -220,7 +250,7 @@
   }
 
   .wide {
-    height: 16vw;
+    height: 150px;
   }
 }
 
