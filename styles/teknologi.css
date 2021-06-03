@@ -24,6 +24,7 @@ h1 {
 .wide {
   background-color: var(--primary);
   height: 80vw;
+  padding-inline: 1rem;
 }
 
 .iframe_wrapper {
@@ -81,8 +82,6 @@ iframe {
     height: 50vw;
     display: grid;
     grid-template-columns: 1fr minmax(0, 880px) 1fr;
-    padding-bottom: 0;
-    padding-top: 4rem;
   }
 
   .wide div {
