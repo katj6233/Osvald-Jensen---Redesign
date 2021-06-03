@@ -1,7 +1,8 @@
 h1 {
   grid-area: 1/1;
   text-align: center;
-  padding-top: 2.5rem;
+  /*padding-top: 2.5rem;*/
+  margin-bottom: 0;
 }
 
 h2 {
@@ -18,21 +19,37 @@ p {
 
 .hero {
   display: grid;
-  height: 49.5vw;
+  align-items: center;
+  grid-template-rows: 1fr auto auto 1fr;
+}
+
+.hero h5 {
+  grid-area: 3/1;
+  text-align: center;
+}
+
+.hero video {
+  grid-area: 1/1;
+  grid-row: 1/5;
 }
 
 .citat {
   font-style: normal;
 }
 
+.citat p {
+  font-size: 16px;
+  padding: 0;
+}
+
 .wide {
   background-color: var(--secondary);
-  height: 120vw;
+  height: 800px;
 }
 
 .wide p {
   text-align: center;
-  padding-top: 2.5rem;
+  /*padding-top: 2.5rem;*/
 }
 
 .produkter img {
@@ -101,16 +118,16 @@ video {
 
   .citat p {
     font-size: 16px;
+    padding: 0;
   }
 
   h1 {
-    grid-area: 1/1;
+    grid-area: 2/1;
     text-align: center;
-    padding-top: 20rem;
   }
 
   .wide {
     background-color: var(--secondary);
-    height: 25vw;
+    height: 400px;
   }
 }
