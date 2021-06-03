@@ -36,7 +36,6 @@ p {
 }
 
 .produkter img {
-  opacity: 20%;
   z-index: -1;
   padding-left: 1rem;
   padding-right: 1rem;
