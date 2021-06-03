@@ -97,6 +97,11 @@ video {
     padding: 3rem;
   }
 
+  .produkter h2 {
+    font-size: 23px;
+    padding: 0;
+  }
+
   .clients_logo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -129,5 +134,11 @@ video {
   .wide {
     background-color: var(--secondary);
     height: 400px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .produkter h2 {
+    font-size: 30px;
   }
 }
